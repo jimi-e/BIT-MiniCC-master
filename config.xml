@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config name="config.xml">
+  <phases>
+    <phase>
+      <phase skip="ture" type="java" path="" name="preprocess" ></phase>
+      <phase skip="false" type="java" path="" name="scan" ></phase>
+      <phase skip="false" type="java" path="" name="parse" />
+      
+      <phase skip="true" type="java" path="" name="semantic" /><phase skip="true" type="java" path="" name="icgen" ></phase>
+      <phase skip="true" type="java" path="" name="optimize" ></phase>
+      <phase skip="true" type="java" path="" name="ncgen" target="mips" ra="ls" ></phase>
+      <phase skip="true" type="mips" path="" name="simulate" ></phase>
+    </phase>
+  </phases>
+</config>
+

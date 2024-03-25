@@ -1,0 +1,351 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch JDOMAbout",
+            "request": "launch",
+            "mainClass": "JDOMAbout",
+            "projectName": "bitmincc-clean"
+        },
+        {
+            "type": "java",
+            "name": "Launch Mars",
+            "request": "launch",
+            "mainClass": "Mars",
+            "projectName": "bitmincc-clean"
+        },
+        {
+            "type": "java",
+            "name": "Launch Rars",
+            "request": "launch",
+            "mainClass": "Rars",
+            "projectName": "bitmincc-clean"
+        },
+        {
+            "type": "java",
+            "name": "Launch BITMiniCC",
+            "request": "launch",
+            "mainClass": "bit.minisys.minicc.BITMiniCC",
+            "projectName": "bitmincc-clean",
+            "args": "E:\\BIT-MiniCC-master\\test\\parse_test\\4_parser_test3.c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Examples",
+            "request": "launch",
+            "mainClass": "bit.minisys.minicc.parser.Examples",
+            "projectName": "bitmincc-clean"
+        },
+        {
+            "type": "java",
+            "name": "Launch AsmLibraryLoader",
+            "request": "launch",
+            "mainClass": "com.kenai.jaffl.provider.jffi.AsmLibraryLoader",
+            "projectName": "bitmincc-clean"
+        },
+        {
+            "type": "java",
+            "name": "Launch ANSIBuffer",
+            "request": "launch",
+            "mainClass": "jline.ANSIBuffer",
+            "projectName": "bitmincc-clean"
+        },
+        {
+            "type": "java",
+            "name": "Launch ConsoleRunner",
+            "request": "launch",
+            "mainClass": "jline.ConsoleRunner",
+            "projectName": "bitmincc-clean"
+        },
+        {
+            "type": "java",
+            "name": "Launch BitmapDisplay",
+            "request": "launch",
+            "mainClass": "mars.tools.BitmapDisplay",
+            "projectName": "bitmincc-clean"
+        },
+        {
+            "type": "java",
+            "name": "Launch CacheSimulator",
+            "request": "launch",
+            "mainClass": "mars.tools.CacheSimulator",
+            "projectName": "bitmincc-clean"
+        },
+        {
+            "type": "java",
+            "name": "Launch DigitalLabSim",
+            "request": "launch",
+            "mainClass": "mars.tools.DigitalLabSim",
+            "projectName": "bitmincc-clean"
+        },
+        {
+            "type": "java",
+            "name": "Launch FloatRepresentation",
+            "request": "launch",
+            "mainClass": "mars.tools.FloatRepresentation",
+            "projectName": "bitmincc-clean"
+        },
+        {
+            "type": "java",
+            "name": "Launch IntroToTools",
+            "request": "launch",
+            "mainClass": "mars.tools.IntroToTools",
+            "projectName": "bitmincc-clean"
+        },
+        {
+            "type": "java",
+            "name": "Launch KeyboardAndDisplaySimulator",
+            "request": "launch",
+            "mainClass": "mars.tools.KeyboardAndDisplaySimulator",
+            "projectName": "bitmincc-clean"
+        },
+        {
+            "type": "java",
+            "name": "Launch MemoryReferenceVisualization",
+            "request": "launch",
+            "mainClass": "mars.tools.MemoryReferenceVisualization",
+            "projectName": "bitmincc-clean"
+        },
+        {
+            "type": "java",
+            "name": "Launch ScreenMagnifier",
+            "request": "launch",
+            "mainClass": "mars.tools.ScreenMagnifier",
+            "projectName": "bitmincc-clean"
+        },
+        {
+            "type": "java",
+            "name": "Launch HardcopyWriter",
+            "request": "launch",
+            "mainClass": "mars.venus.HardcopyWriter",
+            "projectName": "bitmincc-clean"
+        },
+        {
+            "type": "java",
+            "name": "Launch RepeatButton",
+            "request": "launch",
+            "mainClass": "mars.venus.RepeatButton",
+            "projectName": "bitmincc-clean"
+        },
+        {
+            "type": "java",
+            "name": "Launch Tool",
+            "request": "launch",
+            "mainClass": "org.antlr.v4.Tool",
+            "projectName": "bitmincc-clean"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestRig",
+            "request": "launch",
+            "mainClass": "org.antlr.v4.gui.TestRig",
+            "projectName": "bitmincc-clean"
+        },
+        {
+            "type": "java",
+            "name": "Launch FlexibleHashMap",
+            "request": "launch",
+            "mainClass": "org.antlr.v4.runtime.misc.FlexibleHashMap",
+            "projectName": "bitmincc-clean"
+        },
+        {
+            "type": "java",
+            "name": "Launch LogManager",
+            "request": "launch",
+            "mainClass": "org.antlr.v4.runtime.misc.LogManager",
+            "projectName": "bitmincc-clean"
+        },
+        {
+            "type": "java",
+            "name": "Launch TestRig(1)",
+            "request": "launch",
+            "mainClass": "org.antlr.v4.runtime.misc.TestRig",
+            "projectName": "bitmincc-clean"
+        },
+        {
+            "type": "java",
+            "name": "Launch AnalyzingParser",
+            "request": "launch",
+            "mainClass": "org.python.antlr.AnalyzingParser",
+            "projectName": "bitmincc-clean"
+        },
+        {
+            "type": "java",
+            "name": "Launch GrammarTester",
+            "request": "launch",
+            "mainClass": "org.python.antlr.GrammarTester",
+            "projectName": "bitmincc-clean"
+        },
+        {
+            "type": "java",
+            "name": "Launch PythonPartialTester",
+            "request": "launch",
+            "mainClass": "org.python.antlr.PythonPartialTester",
+            "projectName": "bitmincc-clean"
+        },
+        {
+            "type": "java",
+            "name": "Launch WalkerTester",
+            "request": "launch",
+            "mainClass": "org.python.antlr.WalkerTester",
+            "projectName": "bitmincc-clean"
+        },
+        {
+            "type": "java",
+            "name": "Launch Constants",
+            "request": "launch",
+            "mainClass": "org.python.apache.xerces.impl.Constants",
+            "projectName": "bitmincc-clean"
+        },
+        {
+            "type": "java",
+            "name": "Launch Version",
+            "request": "launch",
+            "mainClass": "org.python.apache.xerces.impl.Version",
+            "projectName": "bitmincc-clean"
+        },
+        {
+            "type": "java",
+            "name": "Launch XPath",
+            "request": "launch",
+            "mainClass": "org.python.apache.xerces.impl.xpath.XPath",
+            "projectName": "bitmincc-clean"
+        },
+        {
+            "type": "java",
+            "name": "Launch REUtil",
+            "request": "launch",
+            "mainClass": "org.python.apache.xerces.impl.xpath.regex.REUtil",
+            "projectName": "bitmincc-clean"
+        },
+        {
+            "type": "java",
+            "name": "Launch ConstantSet",
+            "request": "launch",
+            "mainClass": "org.python.constantine.ConstantSet",
+            "projectName": "bitmincc-clean"
+        },
+        {
+            "type": "java",
+            "name": "Launch HtmlDemo",
+            "request": "launch",
+            "mainClass": "org.python.indexer.demos.HtmlDemo",
+            "projectName": "bitmincc-clean"
+        },
+        {
+            "type": "java",
+            "name": "Launch ucnhash",
+            "request": "launch",
+            "mainClass": "org.python.modules.ucnhash",
+            "projectName": "bitmincc-clean"
+        },
+        {
+            "type": "java",
+            "name": "Launch ASMifierClassVisitor",
+            "request": "launch",
+            "mainClass": "org.python.objectweb.asm.util.ASMifierClassVisitor",
+            "projectName": "bitmincc-clean"
+        },
+        {
+            "type": "java",
+            "name": "Launch CheckClassAdapter",
+            "request": "launch",
+            "mainClass": "org.python.objectweb.asm.util.CheckClassAdapter",
+            "projectName": "bitmincc-clean"
+        },
+        {
+            "type": "java",
+            "name": "Launch TraceClassVisitor",
+            "request": "launch",
+            "mainClass": "org.python.objectweb.asm.util.TraceClassVisitor",
+            "projectName": "bitmincc-clean"
+        },
+        {
+            "type": "java",
+            "name": "Launch JarRunner",
+            "request": "launch",
+            "mainClass": "org.python.util.JarRunner",
+            "projectName": "bitmincc-clean"
+        },
+        {
+            "type": "java",
+            "name": "Launch jython",
+            "request": "launch",
+            "mainClass": "org.python.util.jython",
+            "projectName": "bitmincc-clean"
+        },
+        {
+            "type": "java",
+            "name": "Launch STViz",
+            "request": "launch",
+            "mainClass": "org.stringtemplate.v4.gui.STViz",
+            "projectName": "bitmincc-clean"
+        },
+        {
+            "type": "java",
+            "name": "Launch BitmapDisplay(1)",
+            "request": "launch",
+            "mainClass": "rars.tools.BitmapDisplay",
+            "projectName": "bitmincc-clean"
+        },
+        {
+            "type": "java",
+            "name": "Launch CacheSimulator(1)",
+            "request": "launch",
+            "mainClass": "rars.tools.CacheSimulator",
+            "projectName": "bitmincc-clean"
+        },
+        {
+            "type": "java",
+            "name": "Launch DigitalLabSim(1)",
+            "request": "launch",
+            "mainClass": "rars.tools.DigitalLabSim",
+            "projectName": "bitmincc-clean"
+        },
+        {
+            "type": "java",
+            "name": "Launch KeyboardAndDisplaySimulator(1)",
+            "request": "launch",
+            "mainClass": "rars.tools.KeyboardAndDisplaySimulator",
+            "projectName": "bitmincc-clean"
+        },
+        {
+            "type": "java",
+            "name": "Launch MemoryReferenceVisualization(1)",
+            "request": "launch",
+            "mainClass": "rars.tools.MemoryReferenceVisualization",
+            "projectName": "bitmincc-clean"
+        },
+        {
+            "type": "java",
+            "name": "Launch ScreenMagnifier(1)",
+            "request": "launch",
+            "mainClass": "rars.tools.ScreenMagnifier",
+            "projectName": "bitmincc-clean"
+        },
+        {
+            "type": "java",
+            "name": "Launch HardcopyWriter(1)",
+            "request": "launch",
+            "mainClass": "rars.venus.HardcopyWriter",
+            "projectName": "bitmincc-clean"
+        },
+        {
+            "type": "java",
+            "name": "Launch RepeatButton(1)",
+            "request": "launch",
+            "mainClass": "rars.venus.RepeatButton",
+            "projectName": "bitmincc-clean"
+        }
+    ]
+}

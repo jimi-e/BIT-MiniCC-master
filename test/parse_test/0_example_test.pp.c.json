@@ -1,0 +1,297 @@
+{
+  "compilation_unit": [
+    {
+      "translation_unit": [
+        {
+          "external_declaration": [
+            {
+              "function_definition": [
+                {
+                  "declaration_specifiers": [
+                    {
+                      "declaration_specifier": [
+                        {
+                          "type_specifier": [
+                            {
+                              "type": "Int",
+                              "value": "int",
+                              "tokenId": 18
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "declarator": [
+                    {
+                      "direct_declarator": [
+                        {
+                          "direct_declarator": [
+                            {
+                              "type": "Identifier",
+                              "value": "sum",
+                              "tokenId": 92
+                            }
+                          ]
+                        },
+                        {
+                          "type": "LeftParen",
+                          "value": "(",
+                          "tokenId": 45
+                        },
+                        {
+                          "parameter_type_list": [
+                            {
+                              "parameter_list": [
+                                {
+                                  "parameter_list": [
+                                    {
+                                      "parameter_declaration": [
+                                        {
+                                          "declaration_specifiers": [
+                                            {
+                                              "declaration_specifier": [
+                                                {
+                                                  "type_specifier": [
+                                                    {
+                                                      "type": "Int",
+                                                      "value": "int",
+                                                      "tokenId": 18
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "declarator": [
+                                            {
+                                              "direct_declarator": [
+                                                {
+                                                  "type": "Identifier",
+                                                  "value": "a",
+                                                  "tokenId": 92
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "Comma",
+                                  "value": ",",
+                                  "tokenId": 75
+                                },
+                                {
+                                  "parameter_declaration": [
+                                    {
+                                      "declaration_specifiers": [
+                                        {
+                                          "declaration_specifier": [
+                                            {
+                                              "type_specifier": [
+                                                {
+                                                  "type": "Int",
+                                                  "value": "int",
+                                                  "tokenId": 18
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "declarator": [
+                                        {
+                                          "direct_declarator": [
+                                            {
+                                              "type": "Identifier",
+                                              "value": "b",
+                                              "tokenId": 92
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "RightParen",
+                          "value": ") ",
+                          "tokenId": 46
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "compound_statement": [
+                    {
+                      "type": "LeftBrace",
+                      "value": "{",
+                      "tokenId": 50
+                    },
+                    {
+                      "block_item_list": [
+                        {
+                          "block_item": [
+                            {
+                              "statement": [
+                                {
+                                  "jump_statement": [
+                                    {
+                                      "type": "Return",
+                                      "value": "return",
+                                      "tokenId": 22
+                                    },
+                                    {
+                                      "expression": [
+                                        {
+                                          "assignment_expression": [
+                                            {
+                                              "conditional_expression": [
+                                                {
+                                                  "logical_OR_expression": [
+                                                    {
+                                                      "logical_AND_expression": [
+                                                        {
+                                                          "inclusive_OR_expression": [
+                                                            {
+                                                              "exclusive_OR_expression": [
+                                                                {
+                                                                  "and_expression": [
+                                                                    {
+                                                                      "equality_expression": [
+                                                                        {
+                                                                          "relational_expression": [
+                                                                            {
+                                                                              "shift_expression": [
+                                                                                {
+                                                                                  "additive_expression": [
+                                                                                    {
+                                                                                      "additive_expression": [
+                                                                                        {
+                                                                                          "multiplicative_expression": [
+                                                                                            {
+                                                                                              "cast_expression": [
+                                                                                                {
+                                                                                                  "unary_expression": [
+                                                                                                    {
+                                                                                                      "postfix_expression": [
+                                                                                                        {
+                                                                                                          "primary_expression": [
+                                                                                                            {
+                                                                                                              "type": "Identifier",
+                                                                                                              "value": "a",
+                                                                                                              "tokenId": 92
+                                                                                                            }
+                                                                                                          ]
+                                                                                                        }
+                                                                                                      ]
+                                                                                                    }
+                                                                                                  ]
+                                                                                                }
+                                                                                              ]
+                                                                                            }
+                                                                                          ]
+                                                                                        }
+                                                                                      ]
+                                                                                    },
+                                                                                    {
+                                                                                      "type": "Plus",
+                                                                                      "value": "+",
+                                                                                      "tokenId": 58
+                                                                                    },
+                                                                                    {
+                                                                                      "multiplicative_expression": [
+                                                                                        {
+                                                                                          "cast_expression": [
+                                                                                            {
+                                                                                              "unary_expression": [
+                                                                                                {
+                                                                                                  "postfix_expression": [
+                                                                                                    {
+                                                                                                      "primary_expression": [
+                                                                                                        {
+                                                                                                          "type": "Identifier",
+                                                                                                          "value": "b",
+                                                                                                          "tokenId": 92
+                                                                                                        }
+                                                                                                      ]
+                                                                                                    }
+                                                                                                  ]
+                                                                                                }
+                                                                                              ]
+                                                                                            }
+                                                                                          ]
+                                                                                        }
+                                                                                      ]
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              ]
+                                                                            }
+                                                                          ]
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "Semi",
+                                      "value": ";",
+                                      "tokenId": 74
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "RightBrace",
+                      "value": "}",
+                      "tokenId": 51
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "EOF",
+      "value": "\u003cEOF\u003e",
+      "tokenId": -1
+    }
+  ]
+}
